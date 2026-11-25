@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "anomalies:block/electric_anomaly"
+    },
+    "powered=true": {
+      "model": "anomalies:block/electric_anomaly"
+    }
+  }
+}

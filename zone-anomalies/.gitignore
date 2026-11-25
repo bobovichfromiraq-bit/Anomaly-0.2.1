@@ -1,0 +1,10 @@
+.gradle/
+build/
+run/
+.idea/
+*.iml
+out/
+# генерируются скриптами в tools/ (в CI и локально)
+src/main/resources/assets/anomalies/textures/
+src/main/resources/assets/anomalies/sounds/
+src/main/resources/assets/anomalies/models/vfx/

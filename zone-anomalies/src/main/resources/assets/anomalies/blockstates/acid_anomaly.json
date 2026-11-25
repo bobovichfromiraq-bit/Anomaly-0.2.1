@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "anomalies:block/acid_anomaly"
+    }
+  }
+}

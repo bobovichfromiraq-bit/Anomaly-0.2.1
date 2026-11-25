@@ -1,0 +1,18 @@
+{
+  "block.anomalies.gravity_anomaly": "Gravitational Anomaly",
+  "block.anomalies.electric_anomaly": "Electric Anomaly",
+  "block.anomalies.acid_anomaly": "Acid Anomaly",
+  "item.anomalies.anomaly_detector": "Anomaly Detector",
+  "itemGroup.anomalies": "Zone Anomalies",
+  "effect.anomalies.acid_cover": "Acid Coating",
+  "message.anomalies.detector": "%3$s %1$s — %2$s m",
+  "death.attack.anomaly_gravity": "%1$s was torn apart by a gravitational anomaly",
+  "death.attack.anomaly_electric": "%1$s was fried by an electric anomaly",
+  "subtitles.anomalies.gravity_activate": "Gravitational anomaly awakens",
+  "subtitles.anomalies.gravity_crack": "Bones crack",
+  "subtitles.anomalies.gravity_tear": "Something is torn apart",
+  "subtitles.anomalies.electric_zap": "Electric discharge",
+  "subtitles.anomalies.acid_sizzle": "Acid sizzles",
+  "effect.anomalies.electro_shock": "Electric Shock",
+  "effect.anomalies.gravity_grip": "Gravity Grip"
+}

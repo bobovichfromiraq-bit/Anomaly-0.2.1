@@ -1,0 +1,18 @@
+{
+  "block.anomalies.gravity_anomaly": "Гравитационная аномалия",
+  "block.anomalies.electric_anomaly": "Электрическая аномалия",
+  "block.anomalies.acid_anomaly": "Кислотная аномалия",
+  "item.anomalies.anomaly_detector": "Детектор аномалий",
+  "itemGroup.anomalies": "Аномалии Зоны",
+  "effect.anomalies.acid_cover": "Покрытие кислотой",
+  "message.anomalies.detector": "%3$s %1$s — %2$s м",
+  "death.attack.anomaly_gravity": "%1$s был разорван гравитационной аномалией",
+  "death.attack.anomaly_electric": "%1$s был поджарен электрической аномалией",
+  "subtitles.anomalies.gravity_activate": "Гравитационная аномалия пробуждается",
+  "subtitles.anomalies.gravity_crack": "Хруст костей",
+  "subtitles.anomalies.gravity_tear": "Что-то разрывает на части",
+  "subtitles.anomalies.electric_zap": "Электрический разряд",
+  "subtitles.anomalies.acid_sizzle": "Шипит кислота",
+  "effect.anomalies.electro_shock": "Удар током",
+  "effect.anomalies.gravity_grip": "Хватка гравитации"
+}

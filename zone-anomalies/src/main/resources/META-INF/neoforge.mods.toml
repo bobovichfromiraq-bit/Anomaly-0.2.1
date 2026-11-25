@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "anomalies"
+version = "0.4.0"
+displayName = "Zone Anomalies"
+authors = "You"
+description = '''
+Три аномалии в духе S.T.A.L.K.E.R.: гравитационная, электрическая и кислотная.
+Блоки доступны только в творческом режиме (вкладка «Аномалии Зоны»).
+'''
+
+[[dependencies.anomalies]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.anomalies]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"

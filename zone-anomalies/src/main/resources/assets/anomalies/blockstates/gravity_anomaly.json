@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "anomalies:block/gravity_anomaly"
+    },
+    "active=true": {
+      "model": "anomalies:block/gravity_anomaly"
+    }
+  }
+}

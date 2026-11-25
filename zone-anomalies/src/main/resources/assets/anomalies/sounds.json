@@ -1,0 +1,72 @@
+{
+  "gravity_hum": {
+    "sounds": [
+      "anomalies:gravity_hum_1",
+      "anomalies:gravity_hum_2"
+    ]
+  },
+  "gravity_activate": {
+    "sounds": [
+      "anomalies:gravity_activate"
+    ],
+    "subtitle": "subtitles.anomalies.gravity_activate"
+  },
+  "gravity_crack": {
+    "sounds": [
+      "anomalies:gravity_crack_1",
+      "anomalies:gravity_crack_2",
+      "anomalies:gravity_crack_3"
+    ],
+    "subtitle": "subtitles.anomalies.gravity_crack"
+  },
+  "gravity_tear": {
+    "sounds": [
+      "anomalies:gravity_tear"
+    ],
+    "subtitle": "subtitles.anomalies.gravity_tear"
+  },
+  "electric_crackle": {
+    "sounds": [
+      "anomalies:electric_crackle_1",
+      "anomalies:electric_crackle_2"
+    ]
+  },
+  "electric_zap": {
+    "sounds": [
+      "anomalies:electric_zap_1",
+      "anomalies:electric_zap_2"
+    ],
+    "subtitle": "subtitles.anomalies.electric_zap"
+  },
+  "electric_idle": {
+    "sounds": [
+      "anomalies:electric_idle_1",
+      "anomalies:electric_idle_2",
+      "anomalies:electric_idle_3"
+    ]
+  },
+  "acid_loop": {
+    "sounds": [
+      "anomalies:acid_loop_1",
+      "anomalies:acid_loop_2"
+    ]
+  },
+  "acid_bubble": {
+    "sounds": [
+      "anomalies:acid_bubble_1",
+      "anomalies:acid_bubble_2",
+      "anomalies:acid_bubble_3"
+    ]
+  },
+  "acid_sizzle": {
+    "sounds": [
+      "anomalies:acid_sizzle"
+    ],
+    "subtitle": "subtitles.anomalies.acid_sizzle"
+  },
+  "detector_beep": {
+    "sounds": [
+      "anomalies:detector_beep"
+    ]
+  }
+}

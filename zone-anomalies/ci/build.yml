@@ -1,0 +1,37 @@
+name: Build mod
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: zone-anomalies
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install ffmpeg and Python libs
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          pip install numpy pillow scipy
+      - name: Generate textures, sounds and meshes
+        run: |
+          python tools/build_meshes.py
+          python tools/generate_assets.py
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.10"
+          build-root-directory: zone-anomalies
+      - run: gradle build --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: anomalies-jar
+          path: zone-anomalies/build/libs/*.jar
